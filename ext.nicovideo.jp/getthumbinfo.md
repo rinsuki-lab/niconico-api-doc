@@ -7,7 +7,7 @@ XMLで返ってくる。
 
 |name|description|
 |---|---|
-|:video_id|動画ID(e.g. sm9)|
+|:video_id|動画ID(e.g. sm9)|
 
 # レスポンス
 
@@ -40,10 +40,10 @@ XML
 |no_live_play|ニコニコ生放送での埋め込み不可かどうか?|
 |tags|この子要素の`<tag>`に付けられているタグが入っている これ自体の属性のdomainはニコニコ動画のリージョンを表す?|
 |`tags/tag`|`category`属性が1の場合はカテゴリータグ `lock`属性が1の場合は投稿者ロックがされているタグ|
-|user_id|投稿者のユーザーID 投稿者が消えていても中身は入っている|
+|user_id|投稿者のユーザーID 投稿者が消えていても中身は入っている|
 |user_nickname|投稿者のニックネーム 投稿者が消えていても中身は入っている|
 |user_icon_url|投稿者のアイコンURL|
-|ch_id|投稿チャンネルのID|
+|ch_id|投稿チャンネルのID|
 |ch_name|投稿チャンネルの名前|
 |ch_icon_url|投稿チャンネルのアイコンURL|
 
@@ -51,7 +51,7 @@ XML
 
 <details>
 
-<summary>成功時(sm9)</summary>
+<summary>成功時(sm9)</summary>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
